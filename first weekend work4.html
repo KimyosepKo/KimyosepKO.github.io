@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Stanford Performing Arts</title>
+    <style>
+        .container {
+            width: 950px;
+            margin: 0 auto;
+        }
+
+        body {
+            font-family: arial, sans-serif;
+            margin: 20px;
+            line-height: 1.3;
+        }
+
+        .header-red {
+            color: #cc0000;
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 0;
+            letter-spacing: -1px;
+        }
+
+        .edition-text {
+            text-align: right;
+            color: #cc0000;
+            font-weight: bold;
+            margin-top: -45px;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .column-left {
+            float: left;
+            width: 630px;
+            padding-right: 15px;
+        }
+
+        .column-right {
+            float: left;
+            width: 290px;
+        }
+
+        .concert-img {
+            width: 340px;
+            height: auto;
+            float: left;
+            margin-right: 12px;
+            margin-bottom: 2px;
+        }
+
+        .calendar-list {
+            list-style: none;
+            padding: 0;
+            border-top: 1.5px solid black;
+            font-family: "Gulim", "굴림", sans-serif;
+            font-weight: bold;
+        }
+
+            .calendar-list li {
+                border-bottom: 1.2px solid black;
+                padding: 6px 0;
+                font-style: italic;
+                line-height: 1.2;
+            }
+
+        h2 {
+            margin-top: 10px;
+            margin-bottom: 8px;
+            font-size: 1.4em;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="header-red">Stanford Performing Arts</h1>
+        <p class="edition-text">Autumn 2012<br>Edition</p>
+        <div class="row">
+            <div class="column-left">
+                <h2>Bing Concert Hall</h2>
+                <p><img src="hall.jpg" class="concert-img">The Bing Concert Hall at Stanford will play a vital role on campus and in the local community. The hall's exceptional acoustics and state-of-the-art technical capabilities will showcase the world's finest performers.</p>
+                <p>The hall is scheduled to open early in 2013. The concert hall will have 844 seats in an intimate vineyard-style configuration, with terraced sections wrapping all the way around the stage.</p>
+            </div>
+            <div class="column-right">
+                <h2>Calendar</h2>
+                <ul class="calendar-list">
+                    <li>Harmony for Humanity: Daniel Pearl World Music Concert</li>
+                    <li>Sundays with the St. Lawrence String Quartet</li>
+                    <li>Merce Cunningham Dance Company</li>
+                    <li>Juilliard String Quartet</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

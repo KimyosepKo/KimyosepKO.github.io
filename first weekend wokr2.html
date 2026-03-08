@@ -1,0 +1,68 @@
+﻿<html>
+<head>
+    <title>Stanford Data Table</title>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 2px solid #000000;
+            text-align: left;
+            padding: 10px;
+        }
+
+        th {
+            background-color: black;
+            color: white;
+        }
+
+            th:first-child {
+                border-right: 2px solid white;
+            }
+
+        tr:nth-child(even) td {
+            background-color: #eeeeee;
+        }
+
+        tr:nth-child(odd):not(:first-child) td {
+            background-color: #ffffff;
+        }
+
+        .source-text {
+            font-family: "Gulim", "굴림", sans-serif;
+            font-style: italic;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Geographic Origin of Stanford Undergrads</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Geographic Origin</th>
+                <th>Number of Students</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>California</td><td>2,943</td></tr>
+            <tr><td>Other US</td><td>3,447</td></tr>
+            <tr><td>Asia</td><td>264</td></tr>
+            <tr><td>The Americas</td><td>83</td></tr>
+            <tr><td>Europe</td><td>69</td></tr>
+            <tr><td>Africa</td><td>44</td></tr>
+            <tr><td>Middle East and North Africa</td><td>22</td></tr>
+            <tr><td>Pacific Basin</td><td>6</td></tr>
+        </tbody>
+    </table>
+
+    <p class="source-text">Source: Stanford Facts Website</p>
+
+</body>
+</html>
